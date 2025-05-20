@@ -31,7 +31,9 @@ const HomePage = ({ setIsLoggedIn, setType, setErrorMessage }) => {
   const getData = async (name) => {
     try {
       setLoading(true);
-      const res = await axios.get(`http://localhost:8000/data/${name}`);
+      const res = await axios.get(
+        `https://authentication-backend-ozjh.onrender.com/data/${name}`
+      );
       setUserInfo(res.data);
     } catch (err) {
       setType("Error");

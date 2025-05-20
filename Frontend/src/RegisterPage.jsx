@@ -52,7 +52,7 @@ const RegisterPage = ({ setIsLoggedIn, setType, setErrorMessage, data }) => {
     const dataToSend = { ...formData, createAT: formatted };
     try {
       const res = await axios.post(
-        "http://localhost:8000/register",
+        "https://authentication-backend-ozjh.onrender.com/register",
         // {
         //   username: loginData.username,
         //   password: loginData.password,

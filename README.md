@@ -12,9 +12,13 @@ A full-stack user authentication system built with **React**, **Node.js**, **Exp
 
 ## 📸 Screenshots
 
-| Dark Mode                                 | Light Mode                                  |
-| ----------------------------------------- | ------------------------------------------- |
-| ![Dark Mode](./screenshots/dark-mode.png) | ![Light Mode](./screenshots/light-mode.png) |
+| Login Page                                    | Signup Page                                      |
+| --------------------------------------------- | ------------------------------------------------ |
+| ![Dark Mode](./Frontend/screenshot/login.png) | ![Light Mode](/Frontend/screenshot/register.png) |
+
+| Home Page                                    | Logout Message                                 |
+| -------------------------------------------- | ---------------------------------------------- |
+| ![Dark Mode](./Frontend/screenshot/home.png) | ![Light Mode](/Frontend/screenshot/logout.png) |
 
 ---
 
@@ -133,7 +137,7 @@ npm run dev
 
 ## This project can be deployed easily using:
 
-- ### 🔗 [vercel](https://authentication-frontend-0fye.onrender.com)
+- ### 🔗 [Render](https://authentication-frontend-0fye.onrender.com)
 
 ## ✍️ Author
 

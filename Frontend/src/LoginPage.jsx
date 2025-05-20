@@ -28,7 +28,7 @@ const LoginPage = ({ setIsLoggedIn, setType, setErrorMessage, data }) => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        `http://localhost:8000/login`,
+        `https://authentication-backend-ozjh.onrender.com/login`,
         // {
         //   username: loginData.username,
         //   password: loginData.password,

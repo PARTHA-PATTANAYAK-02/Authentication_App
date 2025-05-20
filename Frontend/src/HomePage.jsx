@@ -31,13 +31,9 @@ const HomePage = ({ setIsLoggedIn, setType, setErrorMessage }) => {
   const getData = async (name) => {
     try {
       setLoading(true);
-<<<<<<< HEAD
       const res = await axios.get(
         `https://authentication-backend-ozjh.onrender.com/data/${name}`
       );
-=======
-      const res = await axios.get(`https://authentication-backend-ozjh.onrender.com/data/${name}`);
->>>>>>> ef57eaecdad26e9d5105261d6aed8f223d48ded3
       setUserInfo(res.data);
     } catch (err) {
       setType("Error");

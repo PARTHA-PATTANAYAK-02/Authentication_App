@@ -118,7 +118,7 @@ const RegisterPage = ({ setIsLoggedIn, setType, setErrorMessage, data }) => {
                 type="text"
                 name="username"
                 placeholder="Username"
-                autoComplete="false"
+                autoComplete="off"
                 className={`w-full pl-10 pr-4 py-3 rounded-lg ${
                   error === "Username" ? "bg-red-300" : "bg-transparent"
                 } border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition`}
@@ -137,7 +137,7 @@ const RegisterPage = ({ setIsLoggedIn, setType, setErrorMessage, data }) => {
                 type="email"
                 name="email"
                 placeholder="Email Address"
-                autoComplete="false"
+                autoComplete="off"
                 className={`w-full pl-10 pr-4 py-3 rounded-lg border ${
                   error === "Email" ? "bg-red-300" : "bg-transparent"
                 } border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition`}

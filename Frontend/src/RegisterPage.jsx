@@ -119,7 +119,7 @@ const RegisterPage = ({ setIsLoggedIn, setType, setErrorMessage, data }) => {
                 name="username"
                 placeholder="Username"
                 className={`w-full pl-10 pr-4 py-3 rounded-lg ${
-                  error === "Username" ? "bg-red-300" : "bg-transparent"
+                  error === "Username" ? "bg-red-300!" : "bg-transparent"
                 } border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition`}
                 value={formData.username}
                 onChange={handleChange}
@@ -137,7 +137,7 @@ const RegisterPage = ({ setIsLoggedIn, setType, setErrorMessage, data }) => {
                 name="email"
                 placeholder="Email Address"
                 className={`w-full pl-10 pr-4 py-3 rounded-lg border ${
-                  error === "Email" ? "bg-red-300" : "bg-transparent"
+                  error === "Email" ? "bg-red-300!" : "bg-transparent"
                 } border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition`}
                 value={formData.email.toLowerCase()}
                 onChange={handleChange}
